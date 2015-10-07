@@ -1,5 +1,12 @@
 Rails.application.routes.draw do
-  devise_for :users
+
+  # authentication
+  devise_for :users, :skip => [:sessions]
+  as :user do
+    get 'admin/sign_in' => 'devise/sessions#new', :as => :new_user_session
+    post 'admin/sign_in' => 'devise/sessions#create', :as => :user_session
+    delete 'admin/sign_out' => 'devise/sessions#destroy', :as => :destroy_user_session
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
