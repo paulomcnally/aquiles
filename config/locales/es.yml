@@ -32,6 +32,11 @@ es:
     forgot:
       title: "Recuperar contraseña"
       send_instructions: "Enviar instrucciones"
+    registration:
+      title: "Crear una cuenta"
+      confirmation_password: "Confirmar contraseña"
+      minimum_password_length: "caracteres mínimo"
+      create: "Crear"
     links:
       sign_in: "Iniciar sesion"
       sign_up: "Crear una cuenta"
