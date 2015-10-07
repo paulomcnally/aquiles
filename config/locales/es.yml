@@ -25,10 +25,13 @@ es:
       title: "Iniciar sesión"
       email: "Correo electrónico"
       password: "Contraseña"
-      remember_me: "Recordarme"
+      remember_me: "Recuérdame"
       footer: |
         Todos los derechos reservados
         Nucleo Digital
+    forgot:
+      title: "Recuperar contraseña"
+      send_instructions: "Enviar instrucciones"
     links:
       sign_in: "Iniciar sesion"
       sign_up: "Crear una cuenta"

@@ -46,3 +46,8 @@ form {
   text-align: center;
   padding: 20px;
 }
+
+h2.device-title {
+  margin: 0;
+  padding: 0;
+}
