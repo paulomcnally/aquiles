@@ -36,7 +36,7 @@ es:
       title: "Crear una cuenta"
       confirmation_password: "Confirmar contraseña"
       minimum_password_length: "caracteres mínimo"
-      create: "Crear"
+      create: "Registrarse"
     links:
       sign_in: "Iniciar sesion"
       sign_up: "Crear una cuenta"
