@@ -1,0 +1,48 @@
+html {
+    background: #f1f1f1;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.device-links {
+  margin-top: 10px;
+}
+
+.remember-me {
+  padding:10px 0px;
+}
+
+form {
+  position: relative;
+  overflow: hidden;
+}
+
+.device-form {
+  background: #ffffff;
+  border-radius: 2px;
+  padding: 20px;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+  box-shadow: 0 1px 3px rgba(0,0,0,.13);
+}
+
+.device-container {
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.device-footer {
+  text-align: center;
+  padding: 20px;
+}

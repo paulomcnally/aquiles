@@ -19,5 +19,17 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
-  hello: "Hello world"
+es:
+  admin:
+    session:
+      title: "Iniciar sesión"
+      email: "Correo electrónico"
+      password: "Contraseña"
+      remember_me: "Recordarme"
+      footer: |
+        Todos los derechos reservados
+        Nucleo Digital
+    links:
+      sign_in: "Iniciar sesion"
+      sign_up: "Crear una cuenta"
+      forgot: "¿Olvidaste tu contraseña?"
