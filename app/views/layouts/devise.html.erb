@@ -8,7 +8,22 @@
 </head>
 <body>
 
-  <%= yield %>
+  <div class="vertical-center">
+
+    <div class="col-md-3 device-container">
+
+      <div class="device-form">
+        <%= yield %>
+      </div>
+
+      <div class="device-footer">
+        <%= simple_format t('admin.session.footer') %>
+      </div>
+
+    </div>
+
+  </div>
+
 
 </body>
 </html>

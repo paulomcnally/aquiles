@@ -2,11 +2,7 @@
 <%= t('admin.session.title') %>
 <% end %>
 
-<div class="vertical-center">
 
-  <div class="col-md-3 device-container">
-
-    <div class="device-form">
 
       <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
       <div class="form-group">
@@ -36,14 +32,4 @@
 
       <%= render "devise/shared/links" %>
 
-    </div>
-
-    <div class="device-footer">
-      <%= simple_format t('admin.session.footer') %>
-    </div>
-
-  </div>
-
-
-
-</div>
+    
