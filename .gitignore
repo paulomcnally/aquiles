@@ -31,3 +31,5 @@ bower.json
 
 # mac files
 .DS_Store
+
+.idea
